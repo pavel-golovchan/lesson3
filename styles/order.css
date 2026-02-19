@@ -4,3 +4,19 @@
     position: fixed;
     inset: 0;
 }
+.main {
+    border-radius: 18px;
+    box-shadow: 0 7px 20px 0 #0000002E;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.96);
+    left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    position: fixed;
+    top: 110px;
+    bottom: 20px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 5;
+}
