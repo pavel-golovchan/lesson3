@@ -154,3 +154,52 @@
 .calculate-button {
     width: 100%;
 }
+
+.main-result {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    padding: 12px;
+    line-height: 1.25;
+}
+
+.main-result-title {
+    font-weight: bold;
+    font-size: 13px;
+    color: #111111;
+    margin-bottom: 13px;
+}
+
+.main-result-lines {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-result-line {
+    font-size: 13px;
+    color: rgba(17, 17, 17, 0.85);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-price {
+    margin-top: 18px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main-price-label {
+    font-size: 12px;
+    color: rgba(17, 17, 17, 0.55);
+}
+
+.main-price-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111111;
+    letter-spacing: -0.3px;
+}
