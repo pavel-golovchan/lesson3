@@ -30,7 +30,25 @@
             <div class="main-title">Оформление доставки</div>
             <div class="main-text">Выберите параметры для расчета отправления</div>
         </div>
-        <div class="main-content"></div>
+        <div class="main-content">
+            <div class="main-route">
+                <div class="main-block-title">Маршрут</div>
+                <div class="main-fields">
+                    <div class="main-field" id="fromField">
+                        <div class="main-pin"></div>
+                        <input id="from" placeholder="Откуда: начните вводить адрес" autocomplete="off"/>
+                        <div class="main-ac" id="fromAc" role="listbox" aria-label="Подсказки адресов"></div>
+                    </div>
+
+                    <div class="main-field" id="toField">
+                        <div class="main-pin"></div>
+                        <input id="to" placeholder="Куда: начните вводить адрес" autocomplete="off"/>
+                        <div class="main-ac" id="toAc" role="listbox" aria-label="Подсказки адресов"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
     </aside>
